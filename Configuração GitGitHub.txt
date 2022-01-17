@@ -1,0 +1,33 @@
+## Principais Comandos GIT
+
+git clone url
+git init
+git status
+git add .
+git commit -m "Comentário"
+git push -u origin main (Para enviar os arquivos/alterações para GitHub)
+git pull origin main (Para trazer arquivos/alterações do GitHub
+
+git log
+git log --oneline --para ver as versões salvas
+git remote -v --conferir o remote
+git remote add origin https://github.com/NikolaiCinotti/exercicios-c.git
+
+## Configuração Inicial
+git config --global user.name "Fulano de Tal"
+git config --global user.email fulanodetal@exemplo.br
+
+git config --list
+git config user.name
+git config user.email
+
+#Configuração com blanches
+git branch <nome da branch> --para criar uma branch
+git checkout -b nome-do-novo-branch --entrar na blanch criada
+git branch --visualizar branch
+git branch -m nome-antigo novo-nome --renomear blanch
+git branch -M novo-nome
+git merge <nome da branch> --trazer todas o que estiver de uma branch para a main (tem que esta dentro da main)
+
+TOKEK Eclipse/GitHub
+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
